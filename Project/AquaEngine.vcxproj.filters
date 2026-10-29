@@ -234,12 +234,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Application\Camera\CameraController.cpp">
-      <Filter>Application\Camera</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Camera\State\CameraState.cpp">
-      <Filter>Application\Camera\State</Filter>
-    </ClCompile>
     <ClCompile Include="Application\Demo\FructureDemo.cpp">
       <Filter>Application\Demo</Filter>
     </ClCompile>
@@ -255,63 +249,6 @@
     <ClCompile Include="Application\Demo\TestFructure.cpp">
       <Filter>Application\Demo</Filter>
     </ClCompile>
-    <ClCompile Include="Application\Enemy\BossAnimator.cpp">
-      <Filter>Application\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\BossEnemy.cpp">
-      <Filter>Application\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\BossRangedAttackManager.cpp">
-      <Filter>Application\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\BattleAction\BossBattleAction.cpp">
-      <Filter>Application\Enemy\BattleAction</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\RangedAttack\IceFall.cpp">
-      <Filter>Application\Enemy\RangedAttack</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\RangedAttack\WindAttack.cpp">
-      <Filter>Application\Enemy\RangedAttack</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\State\BossStateBattle.cpp">
-      <Filter>Application\Enemy\State</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\State\BossStateIn.cpp">
-      <Filter>Application\Enemy\State</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Enemy\State\BossStateOut.cpp">
-      <Filter>Application\Enemy\State</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\GamePlay\GamePhaseManager.cpp">
-      <Filter>Application\GamePlay</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\GamePlay\Phase\ScenePhase.cpp">
-      <Filter>Application\GamePlay\Phase</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Player\Player.cpp">
-      <Filter>Application\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Player\PlayerAction.cpp">
-      <Filter>Application\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Player\PlayerAnimator.cpp">
-      <Filter>Application\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Player\PlayerEffectManager.cpp">
-      <Filter>Application\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Player\Effect\PlayerHitAttackEffect.cpp">
-      <Filter>Application\Player\Effect</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Player\Effect\ShockFloor.cpp">
-      <Filter>Application\Player\Effect</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Player\Effect\ShockWave.cpp">
-      <Filter>Application\Player\Effect</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Scene\DemoScene.cpp">
-      <Filter>Application\Scene</Filter>
-    </ClCompile>
     <ClCompile Include="Application\Scene\GameScene.cpp">
       <Filter>Application\Scene</Filter>
     </ClCompile>
@@ -321,38 +258,11 @@
     <ClCompile Include="Application\Scene\Transition\Fade.cpp">
       <Filter>Application\Scene\Transition</Filter>
     </ClCompile>
-    <ClCompile Include="Application\Stage\BgIceRock.cpp">
-      <Filter>Application\Stage</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Stage\Floor.cpp">
-      <Filter>Application\Stage</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Stage\StageManager.cpp">
-      <Filter>Application\Stage</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Stage\Wall.cpp">
-      <Filter>Application\Stage</Filter>
-    </ClCompile>
     <ClCompile Include="Application\UI\Effects\DimmerUI.cpp">
       <Filter>Application\UI\Effects</Filter>
     </ClCompile>
     <ClCompile Include="Application\UI\Effects\LetterboxUI.cpp">
       <Filter>Application\UI\Effects</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\UI\Managers\ClearUIManager.cpp">
-      <Filter>Application\UI\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\UI\Managers\GameOverUIManager.cpp">
-      <Filter>Application\UI\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\UI\Managers\PauseUIManager.cpp">
-      <Filter>Application\UI\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\UI\Managers\PlayUIManager.cpp">
-      <Filter>Application\UI\Managers</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\UI\Managers\TitleUIManager.cpp">
-      <Filter>Application\UI\Managers</Filter>
     </ClCompile>
     <ClCompile Include="Application\UI\Widgets\ArrowUI.cpp">
       <Filter>Application\UI\Widgets</Filter>
@@ -365,12 +275,6 @@
     </ClCompile>
     <ClCompile Include="Application\UI\Widgets\TimeUI.cpp">
       <Filter>Application\UI\Widgets</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Utils\TimeController.cpp">
-      <Filter>Application\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="Application\Utils\Timer.cpp">
-      <Filter>Application\Utils</Filter>
     </ClCompile>
     <ClCompile Include="EngineSource\2D\Font.cpp">
       <Filter>EngineSource\2D</Filter>
@@ -858,15 +762,6 @@
     <ClInclude Include="Application\CollisionConfig.h">
       <Filter>Application</Filter>
     </ClInclude>
-    <ClInclude Include="Application\Camera\CameraController.h">
-      <Filter>Application\Camera</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Camera\ICameraState.h">
-      <Filter>Application\Camera</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Camera\State\CameraState.h">
-      <Filter>Application\Camera\State</Filter>
-    </ClInclude>
     <ClInclude Include="Application\Demo\FructureDemo.h">
       <Filter>Application\Demo</Filter>
     </ClInclude>
@@ -882,75 +777,6 @@
     <ClInclude Include="Application\Demo\TestFructure.h">
       <Filter>Application\Demo</Filter>
     </ClInclude>
-    <ClInclude Include="Application\Enemy\BossAnimator.h">
-      <Filter>Application\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\BossEnemy.h">
-      <Filter>Application\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\BossRangedAttackManager.h">
-      <Filter>Application\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\IBossState.h">
-      <Filter>Application\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\BattleAction\BossBattleAction.h">
-      <Filter>Application\Enemy\BattleAction</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\BattleAction\IBossBattleAction.h">
-      <Filter>Application\Enemy\BattleAction</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\RangedAttack\IceFall.h">
-      <Filter>Application\Enemy\RangedAttack</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\RangedAttack\WindAttack.h">
-      <Filter>Application\Enemy\RangedAttack</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\State\BossStateBattle.h">
-      <Filter>Application\Enemy\State</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\State\BossStateIn.h">
-      <Filter>Application\Enemy\State</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Enemy\State\BossStateOut.h">
-      <Filter>Application\Enemy\State</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\GamePlay\GamePhaseManager.h">
-      <Filter>Application\GamePlay</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\GamePlay\IScenePhase.h">
-      <Filter>Application\GamePlay</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\GamePlay\Phase\ScenePhase.h">
-      <Filter>Application\GamePlay\Phase</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\IPlayerAction.h">
-      <Filter>Application\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\Player.h">
-      <Filter>Application\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\PlayerAction.h">
-      <Filter>Application\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\PlayerAnimator.h">
-      <Filter>Application\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\PlayerEffectManager.h">
-      <Filter>Application\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\Effect\PlayerHitAttackEffect.h">
-      <Filter>Application\Player\Effect</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\Effect\ShockFloor.h">
-      <Filter>Application\Player\Effect</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Player\Effect\ShockWave.h">
-      <Filter>Application\Player\Effect</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Scene\DemoScene.h">
-      <Filter>Application\Scene</Filter>
-    </ClInclude>
     <ClInclude Include="Application\Scene\GameScene.h">
       <Filter>Application\Scene</Filter>
     </ClInclude>
@@ -963,38 +789,11 @@
     <ClInclude Include="Application\Scene\Transition\Fade.h">
       <Filter>Application\Scene\Transition</Filter>
     </ClInclude>
-    <ClInclude Include="Application\Stage\BgIceRock.h">
-      <Filter>Application\Stage</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Stage\Floor.h">
-      <Filter>Application\Stage</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Stage\StageManager.h">
-      <Filter>Application\Stage</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Stage\Wall.h">
-      <Filter>Application\Stage</Filter>
-    </ClInclude>
     <ClInclude Include="Application\UI\Effects\DimmerUI.h">
       <Filter>Application\UI\Effects</Filter>
     </ClInclude>
     <ClInclude Include="Application\UI\Effects\LetterboxUI.h">
       <Filter>Application\UI\Effects</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\UI\Managers\ClearUIManager.h">
-      <Filter>Application\UI\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\UI\Managers\GameOverUIManager.h">
-      <Filter>Application\UI\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\UI\Managers\PauseUIManager.h">
-      <Filter>Application\UI\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\UI\Managers\PlayUIManager.h">
-      <Filter>Application\UI\Managers</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\UI\Managers\TitleUIManager.h">
-      <Filter>Application\UI\Managers</Filter>
     </ClInclude>
     <ClInclude Include="Application\UI\Widgets\ArrowUI.h">
       <Filter>Application\UI\Widgets</Filter>
@@ -1007,12 +806,6 @@
     </ClInclude>
     <ClInclude Include="Application\UI\Widgets\TimeUI.h">
       <Filter>Application\UI\Widgets</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Utils\TimeController.h">
-      <Filter>Application\Utils</Filter>
-    </ClInclude>
-    <ClInclude Include="Application\Utils\Timer.h">
-      <Filter>Application\Utils</Filter>
     </ClInclude>
     <ClInclude Include="EngineSource\2D\Font.h">
       <Filter>EngineSource\2D</Filter>

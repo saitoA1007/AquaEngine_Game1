@@ -64,7 +64,7 @@
             "kind": "Effect",
             "name": "HighLumMask",
             "params": {
-                "highLumMask": 0.800000011920929
+                "highLumMask": 0.9879999756813049
             },
             "passName": "HighLumMaskPass",
             "pos": [
